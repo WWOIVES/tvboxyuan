@@ -257,30 +257,6 @@
       "changeable": 0
     },
     {
-      "key": "LiveHuYa",
-      "name": "🐯‍虎牙┃直播🐯‍",
-      "type": 3,
-      "api": "csp_LiveHuYaGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "LiveDouYu",
-      "name": "🐳斗鱼┃直播🐳",
-      "type": 3,
-      "api": "csp_LiveDouYuGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "LiveBiLi",
-      "name": "🅱️哔哩┃直播🅱️",
-      "type": 3,
-      "api": "csp_LiveBiLiGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-	 {
       "key": "ManJuHongGuo",
       "name": "🍉漫短┃小红🍉",
       "type": 3,
@@ -377,78 +353,40 @@
       "changeable": 0
     },
     {
-      "key": "ChildrenDuoDuo",
-      "name": "👼多多┃儿歌👼",
+      "key": "emby",
+      "name": "🀄️emby┃4K🀄️",
       "type": 3,
-      "api": "csp_ChildrenDuoDuoGuard",
+      "api": "csp_EmbyGuard",
       "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 2
-     },
-    {
-      "key": "ChildrenBaoBao",
-      "name": "👼宝宝┃儿歌👼",
-      "type": 3,
-      "api": "csp_ChildrenBaoBaoGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 2
-       },
-    {
-      "key": "ChildrenBeiWa",
-      "name": "👼贝贝┃儿歌👼",
-      "type": 3,
-      "api": "csp_ChildrenBeiWaGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 2
-        },
-    {
-      "key": "ChildrenTuTu",
-      "name": "👼兔兔┃儿歌👼",
-      "type": 3,
-      "api": "csp_ChildrenTuTuGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 2
-        },
-      {
-      "key": "bilibiliys",
-      "name": " 🅱‍哔哩┃影视🅱‍",
-      "type": 3,
-      "api": "csp_NewBiLiYSGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkU9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3083f43a14e6b59f4bfe248478a3a8765b34bfdd/bilisong.txt"
+      "changeable": 0
     },
     {
-      "key": "bilibili",
-      "name": " 🅱‍哔哩┃合集🅱‍",
+      "key": "AList",
+      "name": "👁️Alist┃DIY👁️",
       "type": 3,
-      "api": "csp_BiliGuard",
+      "api": "csp_AListGuard",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "webdav",
+      "name": "👁️WebDav┃DIY👁️",
+      "type": 3,
+      "api": "csp_WebDAVGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "DiyVod",
+      "name": "👁Vod┃DIY👁️",
+      "type": 3,
+      "api": "csp_DiyVodGuard",
+      "searchable": 1,
       "changeable": 0,
       "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "json": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkE9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--47a8ff0e68559a89a9a75b37d09a2b0854dc5a8a/bili001.txt"
-      }
-	},
-    
+        "type": "list"
+     }
+    },
 	{
       "key": "MyQuark",
       "name": "💓我的┃夸克💓‍",
@@ -545,7 +483,38 @@
         "type": "list"
       }
     },    
-	
+	{
+      "key": "SoTySo",
+      "name": "🎠给力┃天逸🎠",
+      "type": 3,
+      "api": "csp_SoTySoGuard",
+      "searchable": 1,
+      "changeable": 0
+    },    
+	{
+      "key": "SoBaiDuSo",
+      "name": "🎠给力┃百度🎠",
+      "type": 3,
+      "api": "csp_SoBaiDuSoGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "SoHaiYin",
+      "name": "🎠海音┃综合🎠",
+      "type": 3,
+      "api": "csp_SoHaiYinGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "So97So",
+      "name": "🎠九七┃综合🎠",
+      "type": 3,
+      "api": "csp_So97SoGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
     {
       "key": "push_agent",
       "name": "推送",
