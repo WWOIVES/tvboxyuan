@@ -352,42 +352,7 @@
       "searchable": 1,
       "changeable": 0
     },
-    {
-      "key": "emby",
-      "name": "🀄️emby┃4K🀄️",
-      "type": 3,
-      "api": "csp_EmbyGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "AList",
-      "name": "👁️Alist┃DIY👁️",
-      "type": 3,
-      "api": "csp_AListGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "webdav",
-      "name": "👁️WebDav┃DIY👁️",
-      "type": 3,
-      "api": "csp_WebDAVGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "DiyVod",
-      "name": "👁Vod┃DIY👁️",
-      "type": 3,
-      "api": "csp_DiyVodGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-     }
-    },
-	{
+ 	{
       "key": "MyQuark",
       "name": "💓我的┃夸克💓‍",
       "type": 3,
@@ -423,19 +388,7 @@
         "type": "list"
       }
     }, 
-	{
-      "key": "MyGuangYa",
-      "name": "💓我的┃光鸭💓‍",
-      "type": 3,
-      "api": "csp_MyGuangYaGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-	{
+		{
       "key": "MyPan189",
       "name": "💓我的┃天翼💓‍",
       "type": 3,
@@ -447,75 +400,7 @@
         "type": "list"
       }
     },
-	{
-      "key": "MyPan115",
-      "name": "💓我的┃115💓‍",
-      "type": 3,
-      "api": "csp_MyPan115Guard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },	
-	{
-      "key": "Fake115Share",
-      "name": "💓115┃分享💓‍",
-      "type": 3,
-      "api": "csp_Fake115ShareGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-	{
-      "key": "MyPan123",
-      "name": "💓我的┃123💓‍",
-      "type": 3,
-      "api": "csp_MyPan123Guard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },    
-	{
-      "key": "SoTySo",
-      "name": "🎠给力┃天逸🎠",
-      "type": 3,
-      "api": "csp_SoTySoGuard",
-      "searchable": 1,
-      "changeable": 0
-    },    
-	{
-      "key": "SoBaiDuSo",
-      "name": "🎠给力┃百度🎠",
-      "type": 3,
-      "api": "csp_SoBaiDuSoGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "SoHaiYin",
-      "name": "🎠海音┃综合🎠",
-      "type": 3,
-      "api": "csp_SoHaiYinGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "So97So",
-      "name": "🎠九七┃综合🎠",
-      "type": 3,
-      "api": "csp_So97SoGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
+	  {
       "key": "push_agent",
       "name": "推送",
       "type": 3,
