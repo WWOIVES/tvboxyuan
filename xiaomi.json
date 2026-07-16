@@ -1,0 +1,201 @@
+
+{
+    "spider": "https://raw.githubusercontent.com/WWOIVES/tvboxyuan/refs/heads/main/20260710173636681007-vip.jpg;md5;03b5cc34c0ac0b72c36a7c9e31a8577e",
+    "wallpaper": "https://www.wexwp.cc/bizhi.php",
+    "logo": "https://wkphoto.bj.bcebos.com/bba1cd11728b47106798119ad3cec3fdfc032335.jpg",
+    "lives": [
+        {
+            "name": "📺 平台直播",
+            "type": 0,
+            "url": "",
+            "ua": "okhttp/3.15",
+            "playerType": 2
+        }
+    ],
+    "sites": [
+        {
+            "key": "豆豆",
+            "name": "🎬豆瓣┃精选 仅供测试  备用：https://zzzy.shop/tv/",
+            "type": 3,
+            "quickSearch": 0,
+            "filterable": 1,
+            "changeable": 0,
+            "api": "csp_Douban",
+            "searchable": 0
+        },
+        {
+            "key": "config",
+            "name": "⚙️Cookie┃配置 修了很多 偷窃贩卖后果自负",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0
+        },
+        {
+            "key": "csp_Netfixtv",
+            "name": "🚀🚀臻臻┃网盘4K",
+            "type": 3,
+            "changeable": "0",
+            "quickSearch": 1,
+            "timeout": 15,
+            "api": "csp_Duopan",
+            "filterable": 1,
+            "ext": "ewogICJzaXRlX3VybHMiOiBbCiAgICAiaHR0cHM6Ly93d3cuemhpemhlbjguY2xpY2siLAogICAgImh0dHBzOi8vcGFuLm1paGRyLnRvcCIsCiAgICAiaHR0cHM6Ly93d3cuemhpemhlbjEudG9wIiwKICAgICJodHRwczovL3d3dy5taWhkci50b3AiLAogICAgImh0dHBzOi8vd3d3Lm1pcWsuY2MiCiAgXSwKICAidXJsX2tleSI6ICJOZXRmaXh0diIsCiAgInRva2VuIjogIiIsCiAgInVjQ29va2llIjogIiIsCiAgInF1YXJrQ29va2llIjogIiIKfQ=="
+        },
+        {
+            "key": "csp_Netfixtv2",
+            "name": "🚀🛸指南┃网盘4K",
+            "type": 3,
+            "changeable": "0",
+            "quickSearch": 1,
+            "timeout": 15,
+            "api": "csp_Duopan",
+            "filterable": 1,
+            "ext": "ewogICJzaXRlX3VybHMiOiBbCiAgICAiaHR0cHM6Ly93d3cuMnhpYW9wYW4udG9wIiwKICAgICJodHRwOi8vd3d3LndleHdwLmNjIiwKICAgICJodHRwczovL3d3dy4yeGlhb3Bhbi5vbmUiLAogICAgImh0dHBzOi8vd3d3LndleHdwLmNjIgogIF0sCiAgInVybF9rZXkiOiAiVUMiLAogICJ0b2tlbiI6ICIiLAogICJ1Y0Nvb2tpZSI6ICIiLAogICJxdWFya0Nvb2tpZSI6ICIiCn0="
+        },
+        {
+            "key": "csp_Wogg",
+            "name": "🧸玩偶┃网盘4K",
+            "type": 3,
+            "api": "csp_Gege",
+            "timeout": 15,
+            "changeable": "0",
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "ewogICJzaXRlX3VybHMiOiBbCiAgICAiaHR0cHM6Ly93d3cud29nZy5saXZlIiwKICAgICJodHRwOi8vd29nZ3Bhbi54eG9vby5jZiIsCiAgICAiaHR0cHM6Ly93d3cud29nZy5uZXQiCiAgXSwKICAidG9rZW4iOiAiIiwKICAidWNDb29raWUiOiAiIiwKICAicXVhcmtDb29raWUiOiAiIgp9"
+        },
+        {
+            "key": "csp_Duopan",
+            "name": "☁️蜡笔┃网盘4K",
+            "type": 3,
+            "quickSearch": 1,
+            "changeable": "0",
+            "timeout": 15,
+            "api": "csp_Duopan",
+            "filterable": 1,
+            "ext": "ewogICJzaXRlX3VybHMiOiBbCiAgICAiaHR0cDovL3R2cGFucGFuLnNpdGUiLAogICAgImh0dHA6Ly9mZWltby5mdW4iLAogICAgImh0dHA6Ly94aWFvY2dlZ2Uuc2hvcCIsCiAgICAiaHR0cDovL3d3dy54aWFvY2dlZ2Uuc2hvcCIsCiAgICAiaHR0cHM6Ly93d3cueGlhb2NnZS5mdW4iCiAgXSwKICAidXJsX2tleSI6ICJEdW9wYW40Igp9"
+        },
+               {
+            "key": "push_agent",
+            "name": "📤 推送┃播放",
+            "type": 3,
+            "filterable": 0,
+            "changeable": 0,
+            "api": "csp_Push",
+            "searchable": 1,
+            "quickSearch": 1,
+            "ext": ""
+        }
+    ],
+    "parses": [
+        {
+            "name": "📦 Json聚合",
+            "type": 3,
+            "url": "Demo"
+        },
+        {
+            "name": "🎬 影视聚合",
+            "type": 3,
+            "url": "影视"
+        },
+        {
+            "name": "🐮 牛牛解析",
+            "type": 1,
+            "url": "",
+            "ext": {
+                "flag": [
+                    "QD4K",
+                    "iyf",
+                    "duanju",
+                    "gzcj",
+                    "GTV",
+                    "GZYS",
+                    "weggz",
+                    "Ace"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "🌃 夜幕解析",
+            "type": 0,
+            "url": ""
+        }
+    ],
+    "rules": [
+        {
+            "name": "农民",
+            "hosts": [
+                "toutiaovod.com"
+            ],
+            "regex": [
+                "video/tos/cn"
+            ]
+        },
+        {
+            "name": "火山",
+            "hosts": [
+                "huoshan.com"
+            ],
+            "regex": [
+                "item_id="
+            ]
+        },
+        {
+            "name": "抖音",
+            "hosts": [
+                "douyin.com"
+            ],
+            "regex": [
+                "is_play_url="
+            ]
+        },
+        {
+            "name": "磁力广告",
+            "hosts": [
+                "magnet"
+            ],
+            "regex": [
+                "更多",
+                "请访问",
+                "example",
+                "社 區",
+                "x u u",
+                "直 播",
+                "更 新",
+                "社 区",
+                "有趣",
+                "有 趣",
+                "英皇体育",
+                "全中文AV在线",
+                "澳门皇冠赌场",
+                "哥哥快来",
+                "美女荷官",
+                "裸聊",
+                "新片首发",
+                "UUE29"
+            ]
+        },
+        {
+            "name": "饭团点击",
+            "hosts": [
+                "dadagui",
+                "freeok",
+                "dadagui"
+            ],
+            "script": [
+                "document.querySelector(\"#playleftiframe\").contentWindow.document.querySelector(\"#start\").click();"
+            ]
+        },
+        {
+            "name": "毛驴点击",
+            "hosts": [
+                "www.maolvys.com"
+            ],
+            "script": [
+                "document.getElementsByClassName('swal-buttonswal-button--confirm')[0].click()"
+            ]
+        }
+    ]
+}
